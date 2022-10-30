@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+  .flexContainer {
+    flex-direction: column;
+    height: 90vh;
+    margin-top: 60px;
+  }
+  .accordianContainer {
+    width: 100%;
+  }
+  .bakcgroungImageDesktop {
+    display: none;
+  }
+  .bakcgroungImageMobile {
+    display: block;
+    position: relative;
+    left: 30%;
+  }
+  .womenonlinedisktopimage {
+    display: none;
+  }
+  .womenonlinemobileimage{
+    display: block;
+    position: relative;
+    width: 150%;
+    top: -130%;
+    left: 30%;
+  }
+  .boxdesktop {
+    display: none;
+  }
+  .accordianHeader summary {
+    font-size: 14px;
+  }
+  .accordianContainer h1 {
+    text-align: center;
+  }
+  .flexContainer {
+    overflow:visible;
+  }
+  .background {
+    overflow: visible;
+    height: 18vh;
+  }
+}
